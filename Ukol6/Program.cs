@@ -6,7 +6,7 @@ namespace Ukol6
     class Pocitadlo
     {
         
-        public int a;  // proměnná
+        private int a;  // proměnná
 
         public Pocitadlo(int cislo)  // konstruktor -> přijme proměnnou z externí třídy a dosadí ji za lokálni proměnnou
         {
@@ -38,6 +38,7 @@ namespace Ukol6
             Pocitadlo pocitadlo = new Pocitadlo(10);
             
             Console.WriteLine(pocitadlo.VratPocet());
+            
             
             pocitadlo.Zvys();
             Console.WriteLine(pocitadlo.VratPocet());
